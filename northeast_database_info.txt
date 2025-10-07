@@ -1,0 +1,368 @@
+NORTHEAST NORTH AMERICAN ARCHAEOLOGICAL PROTEIN DATABASE
+======================================================================
+
+Total species/proxies: 50
+
+CATEGORY SUMMARY:
+----------------------------------------------------------------------
+Amphibian.........................................   1 species
+Bird - Galliforme.................................   1 species
+Bird - Galliforme proxy...........................   1 species
+Bird - Other......................................   1 species
+Bird - Waterfowl..................................   4 species
+Contamination.....................................   1 species
+Fish - Anadromous.................................   5 species
+Fish - Freshwater.................................   5 species
+Fish - Marine.....................................   3 species
+Mammal - Carnivore................................   3 species
+Mammal - Marine...................................   1 species
+Mammal - Omnivore proxy...........................   1 species
+Mammal - Rodent...................................   1 species
+Mammal - Small game...............................   1 species
+Mammal - Ungulate.................................   3 species
+Mammal - Ungulate proxy...........................   1 species
+Plant - Domesticated..............................   7 species
+Plant - Wild......................................   4 species
+Reptile...........................................   2 species
+Shellfish - Bivalve...............................   3 species
+Shellfish - Crustacean............................   1 species
+
+
+SPECIES DETAILS:
+----------------------------------------------------------------------
+
+Mammal - Ungulate:
+
+  Odocoileus_virginianus (White-tailed deer)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Hemoglobin_alpha: 1 accessions
+    - Hemoglobin_beta: 1 accessions
+    - Serum_albumin: 1 accessions
+    - LDH_A: 1 accessions
+    - LDH_B: 1 accessions
+    - GAPDH: 1 accessions
+
+Mammal - Carnivore:
+
+  Ursus_americanus (Black bear)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Hemoglobin_alpha: 1 accessions
+    - Hemoglobin_beta: 1 accessions
+
+Mammal - Ungulate:
+
+  Alces_alces (Moose)
+    - COL1A1_proxy: 1 accessions
+    - COL1A2_proxy: 1 accessions
+    - Hemoglobin_alpha: 1 accessions
+    - Hemoglobin_beta: 1 accessions
+
+  Cervus_elaphus (Elk/Red deer (proxy for wapiti))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+Mammal - Carnivore:
+
+  Canis_lupus (Wolf/Dog)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Serum_albumin: 1 accessions
+
+  Felis_catus (Cat (proxy for lynx))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Serum_albumin: 1 accessions
+
+Mammal - Small game:
+
+  Oryctolagus_cuniculus (Rabbit (proxy for hare/cottontail))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Serum_albumin: 1 accessions
+    - Creatine_kinase: 1 accessions
+
+Mammal - Rodent:
+
+  Rattus_norvegicus (Rat (proxy for rodents: beaver, muskrat, squirrel, etc.))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Hemoglobin_alpha: 1 accessions
+    - Hemoglobin_beta: 1 accessions
+    - Serum_albumin: 1 accessions
+
+Mammal - Ungulate proxy:
+
+  Bos_taurus (Cattle (general ungulate proxy))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Myosin_heavy_1: 1 accessions
+    - Myosin_heavy_2: 1 accessions
+    - Myosin_heavy_7: 1 accessions
+    - Actin_beta: 1 accessions
+    - Actin_alpha: 1 accessions
+    - Tropomyosin_1: 1 accessions
+    - Tropomyosin_2: 1 accessions
+    - Serum_albumin: 1 accessions
+    - Ferritin_H: 1 accessions
+    - Ferritin_L: 1 accessions
+    - Transferrin: 1 accessions
+    - LDH_A: 1 accessions
+    - LDH_B: 1 accessions
+    - Creatine_kinase: 1 accessions
+    - GAPDH: 1 accessions
+
+Mammal - Omnivore proxy:
+
+  Sus_scrofa (Pig (general omnivore proxy))
+    - Myosin_heavy_1: 1 accessions
+    - Myosin_heavy_2: 1 accessions
+    - Myosin_heavy_7: 1 accessions
+    - Actin_beta: 1 accessions
+    - Actin_alpha: 1 accessions
+    - Tropomyosin_1: 1 accessions
+    - Tropomyosin_2: 1 accessions
+    - Serum_albumin: 1 accessions
+    - Ferritin_H: 1 accessions
+    - Ferritin_L: 1 accessions
+    - Transferrin: 1 accessions
+    - LDH_A: 1 accessions
+    - LDH_B: 1 accessions
+    - Creatine_kinase: 1 accessions
+    - GAPDH: 1 accessions
+
+Mammal - Marine:
+
+  Phoca_vitulina (Harbor seal)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+Bird - Galliforme:
+
+  Meleagris_gallopavo (Wild turkey)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Hemoglobin_alpha: 1 accessions
+    - Hemoglobin_beta: 1 accessions
+    - Lysozyme: 1 accessions
+    - Ovalbumin: 1 accessions
+    - Ovotransferrin: 1 accessions
+
+Bird - Galliforme proxy:
+
+  Gallus_gallus (Chicken (general bird proxy))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Myosin_heavy_1: 1 accessions
+    - Myosin_heavy_2: 1 accessions
+    - Myosin_heavy_7: 1 accessions
+    - Actin_beta: 1 accessions
+    - Actin_alpha: 1 accessions
+    - Tropomyosin_1: 1 accessions
+    - Tropomyosin_2: 1 accessions
+    - Hemoglobin_alpha: 1 accessions
+    - Hemoglobin_beta: 1 accessions
+    - Serum_albumin: 1 accessions
+    - Ferritin_H: 1 accessions
+    - Ferritin_L: 1 accessions
+    - Transferrin: 1 accessions
+    - LDH_A: 1 accessions
+    - LDH_B: 1 accessions
+    - Creatine_kinase: 1 accessions
+    - GAPDH: 1 accessions
+    - Lysozyme: 1 accessions
+    - Ovalbumin: 1 accessions
+
+Bird - Waterfowl:
+
+  Anas_platyrhynchos (Mallard (waterfowl proxy))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Hemoglobin_alpha: 1 accessions
+    - Hemoglobin_beta: 1 accessions
+    - Serum_albumin: 1 accessions
+    - Lysozyme: 1 accessions
+    - Ovalbumin: 1 accessions
+
+  Branta_canadensis (Canada goose)
+    - COL1A1: 1 accessions
+
+  Anser_anser (Goose (proxy for waterfowl COL1A2))
+    - COL1A2: 1 accessions
+
+  Cygnus_columbianus (Tundra swan)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+Bird - Other:
+
+  Columba_livia (Rock pigeon (proxy for passenger pigeon))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+Fish - Anadromous:
+
+  Salmo_salar (Atlantic salmon)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Myosin_heavy_1: 1 accessions
+    - Myosin_heavy_2: 1 accessions
+    - Actin_beta: 1 accessions
+    - Tropomyosin_1: 1 accessions
+    - Hemoglobin_alpha: 1 accessions
+    - Hemoglobin_beta: 1 accessions
+    - Ferritin_H: 1 accessions
+    - Ferritin_L: 1 accessions
+    - Transferrin: 1 accessions
+    - LDH_A: 1 accessions
+    - LDH_B: 1 accessions
+    - GAPDH: 1 accessions
+    - Vitellogenin: 1 accessions
+
+  Clupea_harengus (Atlantic herring (proxy for shad/alewife))
+    - COL1A1: 1 accessions
+
+  Acipenser_ruthenus (Sterlet (proxy for Atlantic sturgeon))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+  Acipenser_transmontanus (White sturgeon (sturgeon roe proxy))
+    - Vitellogenin: 1 accessions
+
+  Anguilla_anguilla (European eel (proxy for American eel))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+Fish - Freshwater:
+
+  Esox_lucius (Northern pike)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+  Micropterus_salmoides (Largemouth bass)
+    - COL1A1: 1 accessions
+
+  Perca_fluviatilis (European perch (proxy for yellow perch/walleye))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+  Ictalurus_punctatus (Channel catfish)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+  Lepomis_macrochirus (Bluegill (proxy for sunfish/crappie))
+    - COL1A1: 1 accessions
+
+Fish - Marine:
+
+  Gadus_morhua (Atlantic cod)
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+  Platichthys_flesus (European flounder (proxy for winter flounder))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+  Labrus_bergylta (Ballan wrasse (proxy for cunner))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+Reptile:
+
+  Trachemys_scripta (Red-eared slider (proxy for turtles))
+    - COL1A1: 1 accessions
+
+  Python_bivittatus (Burmese python (proxy for water snake))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+Amphibian:
+
+  Xenopus_laevis (African clawed frog (proxy for bullfrog))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+
+Shellfish - Crustacean:
+
+  Homarus_americanus (American lobster)
+    - Tropomyosin: 1 accessions
+    - Arginine_kinase: 1 accessions
+
+Shellfish - Bivalve:
+
+  Crassostrea_virginica (Eastern oyster)
+    - Tropomyosin: 1 accessions
+    - Arginine_kinase: 1 accessions
+
+  Mercenaria_mercenaria (Hard clam/Quahog)
+    - Tropomyosin: 1 accessions
+
+  Mytilus_edulis (Blue mussel)
+    - Tropomyosin: 1 accessions
+
+Contamination:
+
+  Homo_sapiens (Human (contamination control))
+    - COL1A1: 1 accessions
+    - COL1A2: 1 accessions
+    - Keratin_1: 1 accessions
+    - Keratin_10: 1 accessions
+    - Serum_albumin: 1 accessions
+
+Plant - Domesticated:
+
+  Phaseolus_vulgaris (Common bean)
+    - phaseolin: 5 accessions
+    - phytohemagglutinin: 2 accessions
+    - arcelin: 3 accessions
+    - alpha_amylase_inhibitor: 3 accessions
+    - storage_globulins: 1 accessions
+    - protease_inhibitors: 2 accessions
+    - lipoxygenase: 1 accessions
+    - urease: 1 accessions
+
+  Zea_mays (Maize)
+    - alpha_zeins: 4 accessions
+    - beta_zein: 1 accessions
+    - gamma_zein: 1 accessions
+    - globulins: 1 accessions
+    - glutelins: 1 accessions
+    - prolamins: 1 accessions
+
+  Helianthus_annuus (Sunflower)
+    - helianthinin_11S: 1 accessions
+    - albumin_2S: 1 accessions
+    - storage_globulins: 2 accessions
+
+  Chenopodium_quinoa (Quinoa (proxy for C. berlandieri))
+    - chenopodin_11S: 1 accessions
+
+  Cucurbita_pepo (Squash/pumpkin)
+    - cucurbitin: 1 accessions
+    - cucumisin: 1 accessions
+    - albumin_2S: 2 accessions
+    - storage_proteins: 1 accessions
+
+  Cucurbita_maxima (Winter squash)
+    - storage_proteins: 1 accessions
+
+  Amaranthus_hypochondriacus (Amaranth)
+    - amarantin_11S: 1 accessions
+    - albumins: 2 accessions
+    - globulins: 1 accessions
+
+Plant - Wild:
+
+  Zizania_palustris (Wild rice)
+    - glutelins: 1 accessions
+    - storage_proteins: 1 accessions
+
+  Juglans_nigra (Black walnut)
+    - albumin_2S: 1 accessions
+    - storage_proteins: 1 accessions
+
+  Carya_illinoinensis (Pecan (proxy for hickory))
+    - storage_proteins: 1 accessions
+
+  Helianthus_tuberosus (Jerusalem artichoke)

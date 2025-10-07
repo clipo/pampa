@@ -1,0 +1,272 @@
+=====================================================================
+
+                              P A M P A                              
+
+=====================================================================
+
+Tue Oct  7 18:13:01 2025
+
+pampa_craft.py --allpeptides -f northeast_complete.fasta -o northeast_markers.tsv
+
+PAMPA CRAFT, mode ALL PEPTIDES
+------------------------------
+   INPUT SEQUENCES
+------------------------------
+
+  Fasta file : northeast_complete.fasta
+  152 FASTA files found
+
+  	HNRPK	 Salmo salar  (TaxID:8030)
+  	LIMA1	 Salmo salar  (TaxID:8030)
+  	LDHA	 Bos taurus  (TaxID:9913)
+  	TF	 Oncorhynchus kisutch  (TaxID:8019)
+  	GAPDH	 Bos taurus  (TaxID:9913)
+  	CKM	 Bos taurus  (TaxID:9913)
+  	LDHA	 Homo sapiens  (TaxID:9606)
+  	MYH1	 Sus scrofa  (TaxID:9823)
+  	HNF1A	 Salmo salar  (TaxID:8030)
+  	MYH4	 Sus scrofa  (TaxID:9823)
+  	KRT12	 Oryctolagus cuniculus  (TaxID:9986)
+  	YLAT1	 Salmo salar  (TaxID:8030)
+  	VTG1	 Gallus gallus  (TaxID:9031)
+  	ACTB	 Rattus norvegicus  (TaxID:10116)
+  	GSONMT00021902001	 Oncorhynchus mykiss  (TaxID:8022)
+  	AAEL000229	 Aedes aegypti  (TaxID:7159)
+  	RNF7	 Panthera tigris altaica  (TaxID:74533)
+  	ACTA1	 Sus scrofa  (TaxID:9823)
+  	MAPKAPK3	 Panthera tigris altaica  (TaxID:74533)
+  	TPM2	 Rattus norvegicus  (TaxID:10116)
+  	SI:CH211-220M17.5	 Oncorhynchus kisutch  (TaxID:8019)
+  	TSPAN11	 Oncorhynchus kisutch  (TaxID:8019)
+  	ALB	 Sus scrofa  (TaxID:9823)
+  	DLST	 Takifugu rubripes  (TaxID:31033)
+  	CETP	 Mesocricetus auratus  (TaxID:10036)
+  	BNC2	 Microcebus murinus  (TaxID:30608)
+  	FTL1	 Rattus norvegicus  (TaxID:10116)
+  	TMEM182	 Piliocolobus tephrosceles  (TaxID:591936)
+  	GPAT3	 Piliocolobus tephrosceles  (TaxID:591936)
+  	TF	 Sus scrofa  (TaxID:9823)
+  	LOC113406548	 Terrapene triunguis  (TaxID:2587831)
+  	LDHA	 Sus scrofa  (TaxID:9823)
+  	PDE4C	 Odocoileus virginianus texanus  (TaxID:9880)
+  	LOC110083125	 Pogona vitticeps  (TaxID:103695)
+  	LDHB	 Sus scrofa  (TaxID:9823)
+  	GAPDH	 Sus scrofa  (TaxID:9823)
+  	DHX8	 Odobenus rosmarus divergens  (TaxID:9708)
+  	TTI2	 Equus caballus  (TaxID:9796)
+  	MGC64240	 Xenopus laevis  (TaxID:8355)
+  	UBE2L6	 Odobenus rosmarus divergens  (TaxID:9708)
+  	ALB	 Gallus gallus  (TaxID:9031)
+  	HBB	 Lama guanicoe  (TaxID:9840)
+  	ACTB	 Chlorocebus pygerythrus  (TaxID:60710)
+  	CGI_10009504	 Magallana gigas  (TaxID:29159)
+  	COL1A2	 Bos taurus  (TaxID:9913)
+  	HBAA	 Aquila chrysaetos  (TaxID:8962)
+  	TP63	 Gallus gallus  (TaxID:9031)
+  	HTT	 Rattus norvegicus  (TaxID:10116)
+  	HBB	 Vicugna pacos  (TaxID:30538)
+  	CSBPB	 Crithidia fasciculata  (TaxID:5656)
+  	HBB	 Chelonoidis niger  (TaxID:66189)
+  	LYZ	 Meleagris gallopavo  (TaxID:9103)
+  	OXCT1	 Sus scrofa  (TaxID:9823)
+  	SERPINB14B	 Gallus gallus  (TaxID:9031)
+  	COL1A1	 Homo sapiens  (TaxID:9606)
+  	CA5A	 Rattus norvegicus  (TaxID:10116)
+  	GAPDH	 Ovis aries  (TaxID:9940)
+  	GABARAPL2	 Rattus norvegicus  (TaxID:10116)
+  	COL1A2	 Homo sapiens  (TaxID:9606)
+  	COL1A1	 Gallus gallus  (TaxID:9031)
+  	LOC110129384	 Odocoileus virginianus texanus  (TaxID:9880)
+  	LOC110149847	 Odocoileus virginianus texanus  (TaxID:9880)
+  	KRT1	 Homo sapiens  (TaxID:9606)
+  	COL1A2	 Gallus gallus  (TaxID:9031)
+  	MYH6	 Rattus norvegicus  (TaxID:10116)
+  	MB	 Papio anubis  (TaxID:9555)
+  	KRT10	 Homo sapiens  (TaxID:9606)
+  	MYH7	 Rattus norvegicus  (TaxID:10116)
+  	ALB	 Homo sapiens  (TaxID:9606)
+  	COL1A1	 Bos taurus  (TaxID:9913)
+  	GY2	 Glycine max  (TaxID:3847)
+  	ARC1	 Phaseolus vulgaris  (TaxID:3885)
+  	UNC-54	 Caenorhabditis elegans  (TaxID:6239)
+  	COL1A2	 Bos taurus  (TaxID:9913)
+  	HBA	 Equus caballus  (TaxID:9796)
+  	DLEC2	 Phaseolus vulgaris  (TaxID:3885)
+  	CYP	 Zea mays  (TaxID:4577)
+  	ACTB	 Gallus gallus  (TaxID:9031)
+  	COL1A2	 Canis lupus familiaris  (TaxID:9615)
+  	IL4	 Equus caballus  (TaxID:9796)
+  	DLEC1	 Phaseolus vulgaris  (TaxID:3885)
+  	ACTA1	 Gallus gallus  (TaxID:9031)
+  	ARC2	 Phaseolus vulgaris  (TaxID:3885)
+  	TPM1	 Gallus gallus  (TaxID:9031)
+  	ALB	 Canis lupus familiaris  (TaxID:9615)
+  	HBAA	 Gallus gallus  (TaxID:9031)
+  	RBMY	 Notamacropus eugenii  (TaxID:9315)
+  	MAPT	 Rattus norvegicus  (TaxID:10116)
+  	HBB	 Gallus gallus  (TaxID:9031)
+  	ALB	 Felis catus  (TaxID:9685)
+  	BBI	 Phaseolus vulgaris  (TaxID:3885)
+  	ALB	 Gallus gallus  (TaxID:9031)
+  	LLP	 Phaseolus vulgaris  (TaxID:3885)
+  	COL1A1	 Homo sapiens  (TaxID:9606)
+  	COL1A2	 Oryctolagus cuniculus  (TaxID:9986)
+  	FTH	 Gallus gallus  (TaxID:9031)
+  	ABAT	 Homo sapiens  (TaxID:9606)
+  	ALB	 Oryctolagus cuniculus  (TaxID:9986)
+  	ARC4	 Phaseolus vulgaris  (TaxID:3885)
+  	FTH1	 Homo sapiens  (TaxID:9606)
+  	LDHB	 Gallus gallus  (TaxID:9031)
+  	COL1A1	 Rattus norvegicus  (TaxID:10116)
+  	LOXA	 Phaseolus vulgaris  (TaxID:3885)
+  	CKM	 Oryctolagus cuniculus  (TaxID:9986)
+  	NDUFS6	 Mus musculus  (TaxID:10090)
+  	COL1A1	 Bos taurus  (TaxID:9913)
+  	COL1A2	 Rattus norvegicus  (TaxID:10116)
+  	GAPDH	 Gallus gallus  (TaxID:9031)
+  	AZS22-16	 Zea mays  (TaxID:4577)
+  	CKM	 Gallus gallus  (TaxID:9031)
+  	GLB1	 Zea mays  (TaxID:4577)
+  	HBA1	 Rattus norvegicus  (TaxID:10116)
+  	LYZ	 Gallus gallus  (TaxID:9031)
+  	SERPINB14	 Gallus gallus  (TaxID:9031)
+  	NAC028	 Arabidopsis thaliana  (TaxID:3702)
+  	HBB	 Rattus norvegicus  (TaxID:10116)
+  	HAG3	 Helianthus annuus  (TaxID:4232)
+  	ALB	 Rattus norvegicus  (TaxID:10116)
+  	HAG5	 Helianthus annuus  (TaxID:4232)
+  	HBAA	 Anas platyrhynchos  (TaxID:8839)
+  	TGS1	 Rattus norvegicus  (TaxID:10116)
+  	HBB	 Phasianus colchicus colchicus  (TaxID:9057)
+  	RCHIOBHM_CHR7G0211541	 Rosa chinensis  (TaxID:74649)
+  	COL1A1	 Bos taurus  (TaxID:9913)
+  	GY3	 Glycine max  (TaxID:3847)
+  	PIN2-CM7	 Solanum tuberosum  (TaxID:4113)
+  	COL1A2	 Bos taurus  (TaxID:9913)
+  	HSP17.5	 Prunus dulcis  (TaxID:3755)
+  	LYZ1	 Bos taurus  (TaxID:9913)
+  	RCHIOBHM_CHR4G0421251	 Rosa chinensis  (TaxID:74649)
+  	SERPINB14C	 Gallus gallus  (TaxID:9031)
+  	MDH1	 Bos taurus  (TaxID:9913)
+  	CYP73A1	 Helianthus tuberosus  (TaxID:4233)
+  	EHHADH	 Terrapene triunguis  (TaxID:2587831)
+  	CYP76B1	 Helianthus tuberosus  (TaxID:4233)
+  	SPCS1	 Bos taurus  (TaxID:9913)
+  	LOC116530892	 Sapajus apella  (TaxID:9515)
+  	PAG2	 Sus scrofa  (TaxID:9823)
+  	STAU1	 Salmo salar  (TaxID:8030)
+  	ACTB	 Bos taurus  (TaxID:9913)
+  	ANKRD1	 Salmo salar  (TaxID:8030)
+  	ACTA1	 Bos taurus  (TaxID:9913)
+  	HNRPK	 Salmo salar  (TaxID:8030)
+  	SSR2	 Salmo salar  (TaxID:8030)
+  	TPM1	 Sus scrofa  (TaxID:9823)
+  	TPI1	 Bos taurus  (TaxID:9913)
+  	AMPM1	 Salmo salar  (TaxID:8030)
+  	ALB	 Bos taurus  (TaxID:9913)
+  	HBA	 Carassius auratus  (TaxID:7957)
+  	ITIH2	 Bos taurus  (TaxID:9913)
+  	TF	 Bos taurus  (TaxID:9913)
+  	HBA1	 Oncorhynchus mykiss  (TaxID:8022)
+
+------------------------------
+   PARAMETERS
+------------------------------
+
+  In silico digestion :
+     - Enzyme: trypsin
+     - Maximal number of missed cleavages : 1
+     - Minimal peptide length : 12
+     - Maximal peptide length : 33
+------------------------------
+   WARNINGS
+------------------------------
+
+  File northeast_complete.fasta, header sp|Q29550|EST1_PIG Liver carboxylesterase OS=Sus scrofa OX=9823 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P21627|BRAD_PSEAE High-affinity branched-chain amino acid transport system permease protein BraD OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=braD PE=3 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P22202|HSP74_YEAST Heat shock protein SSA4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSA4 PE=1 SV=3:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P30754|CAFF_RIFPA Fibril-forming collagen alpha chain (Fragment) OS=Riftia pachyptila OX=6426 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|O97768|O97768_SMIMA RBM1 OS=Sminthopsis macroura OX=9302 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P30929|L_MUMPM RNA-directed RNA polymerase L OS=Mumps virus genotype B (strain Miyahara vaccine) OX=11171 GN=L PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P62708|GPMA_ECOL6 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=gpmA PE=3 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P02789|TRFE_CHICK Ovotransferrin OS=Gallus gallus OX=9031 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|R0K4U3|R0K4U3_EXST2 Gfd2/YDR514C-like C-terminal domain-containing protein (Fragment) OS=Exserohilum turcicum (strain 28A) OX=671987 GN=SETTUDRAFT_60252 PE=4 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P87000|ACU15_NEUCR Transcriptional activator protein acu-15 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=acu-15 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|A0A8C7P9M9|A0A8C7P9M9_ONCMY Major facilitator superfamily (MFS) profile domain-containing protein OS=Oncorhynchus mykiss OX=8022 PE=4 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|Q90513|Q90513_TAKRU Protein c-Fos (Fragment) OS=Takifugu rubripes OX=31033 PE=3 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|A0A8C9P9R2|A0A8C9P9R2_SPEDA Lethal(3)malignant brain tumor-like protein 1 OS=Spermophilus dauricus OX=99837 PE=4 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|A0A8C9PCB0|A0A8C9PCB0_SPEDA G protein-coupled receptor 82 OS=Spermophilus dauricus OX=99837 PE=4 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|G8XZJ5|G8XZJ5_PICSO Ubiquinone biosynthesis monooxygenase COQ6, mitochondrial OS=Pichia sorbitophila (strain ATCC MYA-4447 / BCRC 22081 / CBS 7064 / NBRC 10061 / NRRL Y-12695) OX=559304 GN=Piso0_005643 PE=3 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P02853|PHSB_PHAVU Phaseolin, beta-type OS=Phaseolus vulgaris OX=3885 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P13744|11SB_CUCMA 11S globulin subunit beta OS=Cucurbita maxima OX=3661 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P19331|IM23_SCHMA 23 kDa integral membrane protein OS=Schistosoma mansoni OX=6183 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P01055|IBB1_SOYBN Bowman-Birk type proteinase inhibitor OS=Glycine max OX=3847 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P01056|IBB_PHALU Bowman-Birk type proteinase inhibitor OS=Phaseolus lunatus OX=3884 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P04701|ZEAL_MAIZE Zein-alpha Z4 OS=Zea mays OX=4577 PE=3 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P04702|ZEA6_MAIZE Zein-alpha M6 OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P04703|ZEA7_MAIZE Zein-alpha A20 OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P04705|ZEAB_MAIZE Zein-alpha PZ19.1 (Fragment) OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P06673|ZEB1_MAIZE Zein-beta OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|Q5SJ28|DEOC_THET8 Deoxyribose-phosphate aldolase OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=deoC PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P06674|ZEA3_MAIZE Zein-alpha 19A2 (Fragment) OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|Q6VA02|Q6VA02_TREPL TprK (Fragment) OS=Treponema pallidum subsp. pallidum OX=161 GN=tprK PE=4 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|Q6VA03|Q6VA03_TREPL TprK (Fragment) OS=Treponema pallidum subsp. pallidum OX=161 GN=tprK PE=4 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|Q84V37|PROF_CHEAL Profilin OS=Chenopodium album OX=3559 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P26654|VFUS_ORFN2 10 kDa fusion protein OS=Orf virus (strain NZ2) OX=10259 PE=3 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P25776|ORYA_ORYSJ Oryzain alpha chain OS=Oryza sativa subsp. japonica OX=39947 GN=Os04g0650000 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|Q39639|PLSB_CUCSA Glycerol-3-phosphate acyltransferase, chloroplastic OS=Cucumis sativus OX=3659 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|Q39640|Q39640_9ROSI (S)-2-hydroxy-acid oxidase OS=Cucurbita hybrid cultivar OX=170850 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|P16349|LEC_LATSP Lectin OS=Lathyrus sphaericus OX=3861 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|A0A140JWP2|A0A140JWP2_9BURK Tryptophan 2-monooxygenase OS=Collimonas sp. NBRC 3740 OX=1113589 GN=vioA PE=3 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|Q5QKU4|Q5QKU4_9BACT Dinitrogenase reductase (Fragment) OS=uncultured nitrogen-fixing bacterium OX=119348 GN=nifH PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header tr|Q5QKU5|Q5QKU5_9BACT Dinitrogenase reductase (Fragment) OS=uncultured nitrogen-fixing bacterium OX=119348 GN=nifH PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|Q2TPW5|JUGR4_JUGRE 11S globulin seed storage protein Jug r 4 OS=Juglans regia OX=51240 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File northeast_complete.fasta, header sp|Q39994|CALX_HELTU Calnexin homolog OS=Helianthus tuberosus OX=4233 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+
+------------------------------
+   OUTPUT FILES
+------------------------------
+
+  Main result file (TSV) : northeast_markers.tsv
+  Report (this file)     : report_northeast_markers.txt
+
