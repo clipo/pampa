@@ -1,0 +1,116 @@
+=====================================================================
+
+                              P A M P A                              
+
+=====================================================================
+
+Tue Oct  7 16:10:02 2025
+
+pampa_craft.py --allpeptides -f native_american_plants.fasta -o plant_markers.tsv
+
+PAMPA CRAFT, mode ALL PEPTIDES
+------------------------------
+   INPUT SEQUENCES
+------------------------------
+
+  Fasta file : native_american_plants.fasta
+  26 FASTA files found
+
+  	BBI	 Phaseolus vulgaris  (TaxID:3885)
+  	RCHIOBHM_CHR4G0421251	 Rosa chinensis  (TaxID:74649)
+  	AZS22-16	 Zea mays  (TaxID:4577)
+  	LLP	 Phaseolus vulgaris  (TaxID:3885)
+  	CYP73A1	 Helianthus tuberosus  (TaxID:4233)
+  	GLB1	 Zea mays  (TaxID:4577)
+  	DLEC1	 Phaseolus vulgaris  (TaxID:3885)
+  	CYP76B1	 Helianthus tuberosus  (TaxID:4233)
+  	ABAT	 Homo sapiens  (TaxID:9606)
+  	GY2	 Glycine max  (TaxID:3847)
+  	NAC028	 Arabidopsis thaliana  (TaxID:3702)
+  	ARC4	 Phaseolus vulgaris  (TaxID:3885)
+  	HAG3	 Helianthus annuus  (TaxID:4232)
+  	LOXA	 Phaseolus vulgaris  (TaxID:3885)
+  	HAG5	 Helianthus annuus  (TaxID:4232)
+  	ARC2	 Phaseolus vulgaris  (TaxID:3885)
+  	ARC1	 Phaseolus vulgaris  (TaxID:3885)
+  	CYP	 Zea mays  (TaxID:4577)
+  	RCHIOBHM_CHR7G0211541	 Rosa chinensis  (TaxID:74649)
+  	CHGA	 Sus scrofa  (TaxID:9823)
+  	DLEC2	 Phaseolus vulgaris  (TaxID:3885)
+  	GY3	 Glycine max  (TaxID:3847)
+  	PIN2-CM7	 Solanum tuberosum  (TaxID:4113)
+  	ABA3	 Hordeum vulgare  (TaxID:4513)
+  	MAPT	 Rattus norvegicus  (TaxID:10116)
+  	HSP17.5	 Prunus dulcis  (TaxID:3755)
+
+------------------------------
+   PARAMETERS
+------------------------------
+
+  In silico digestion :
+     - Enzyme: trypsin
+     - Maximal number of missed cleavages : 1
+     - Minimal peptide length : 12
+     - Maximal peptide length : 33
+------------------------------
+   WARNINGS
+------------------------------
+
+  File native_american_plants.fasta, header sp|P02853|PHSB_PHAVU Phaseolin, beta-type OS=Phaseolus vulgaris OX=3885 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P13744|11SB_CUCMA 11S globulin subunit beta OS=Cucurbita maxima OX=3661 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P19331|IM23_SCHMA 23 kDa integral membrane protein OS=Schistosoma mansoni OX=6183 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P01055|IBB1_SOYBN Bowman-Birk type proteinase inhibitor OS=Glycine max OX=3847 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P01056|IBB_PHALU Bowman-Birk type proteinase inhibitor OS=Phaseolus lunatus OX=3884 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P04701|ZEAL_MAIZE Zein-alpha Z4 OS=Zea mays OX=4577 PE=3 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P04702|ZEA6_MAIZE Zein-alpha M6 OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P04703|ZEA7_MAIZE Zein-alpha A20 OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P04705|ZEAB_MAIZE Zein-alpha PZ19.1 (Fragment) OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P06673|ZEB1_MAIZE Zein-beta OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|Q5SJ28|DEOC_THET8 Deoxyribose-phosphate aldolase OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=deoC PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P06674|ZEA3_MAIZE Zein-alpha 19A2 (Fragment) OS=Zea mays OX=4577 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header tr|Q6VA02|Q6VA02_TREPL TprK (Fragment) OS=Treponema pallidum subsp. pallidum OX=161 GN=tprK PE=4 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header tr|Q6VA03|Q6VA03_TREPL TprK (Fragment) OS=Treponema pallidum subsp. pallidum OX=161 GN=tprK PE=4 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|Q84V37|PROF_CHEAL Profilin OS=Chenopodium album OX=3559 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P26654|VFUS_ORFN2 10 kDa fusion protein OS=Orf virus (strain NZ2) OX=10259 PE=3 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P25776|ORYA_ORYSJ Oryzain alpha chain OS=Oryza sativa subsp. japonica OX=39947 GN=Os04g0650000 PE=1 SV=2:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|Q39639|PLSB_CUCSA Glycerol-3-phosphate acyltransferase, chloroplastic OS=Cucumis sativus OX=3659 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header tr|Q39640|Q39640_9ROSI (S)-2-hydroxy-acid oxidase OS=Cucurbita hybrid cultivar OX=170850 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|P16349|LEC_LATSP Lectin OS=Lathyrus sphaericus OX=3861 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header tr|A0A140JWP2|A0A140JWP2_9BURK Tryptophan 2-monooxygenase OS=Collimonas sp. NBRC 3740 OX=1113589 GN=vioA PE=3 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header tr|Q5QKU4|Q5QKU4_9BACT Dinitrogenase reductase (Fragment) OS=uncultured nitrogen-fixing bacterium OX=119348 GN=nifH PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header tr|Q5QKU5|Q5QKU5_9BACT Dinitrogenase reductase (Fragment) OS=uncultured nitrogen-fixing bacterium OX=119348 GN=nifH PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|Q2TPW5|JUGR4_JUGRE 11S globulin seed storage protein Jug r 4 OS=Juglans regia OX=51240 PE=1 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+  File native_american_plants.fasta, header sp|Q39994|CALX_HELTU Calnexin homolog OS=Helianthus tuberosus OX=4233 PE=2 SV=1:
+  Bad header. Sequence ignored. See PAMPA documentation.
+
+------------------------------
+   OUTPUT FILES
+------------------------------
+
+  Main result file (TSV) : plant_markers.tsv
+  Report (this file)     : report_plant_markers.txt
+

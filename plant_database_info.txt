@@ -1,0 +1,66 @@
+Native American Plant Protein Database
+==================================================
+
+Species included:
+
+Phaseolus_vulgaris (Common bean)
+  - phaseolin: 5 accessions
+  - phytohemagglutinin: 2 accessions
+  - arcelin: 3 accessions
+  - alpha_amylase_inhibitor: 3 accessions
+  - storage_globulins: 1 accessions
+  - protease_inhibitors: 2 accessions
+  - lipoxygenase: 1 accessions
+  - urease: 1 accessions
+
+Phaseolus_lunatus (Lima bean)
+  - phaseolin: 1 accessions
+  - storage_proteins: 1 accessions
+
+Zea_mays (Maize)
+  - alpha_zeins: 4 accessions
+  - beta_zein: 1 accessions
+  - gamma_zein: 1 accessions
+  - globulins: 1 accessions
+  - glutelins: 1 accessions
+  - prolamins: 1 accessions
+
+Helianthus_annuus (Sunflower)
+  - helianthinin_11S: 1 accessions
+  - albumin_2S: 1 accessions
+  - storage_globulins: 2 accessions
+
+Chenopodium_quinoa (Quinoa (proxy for C. berlandieri))
+  - chenopodin_11S: 1 accessions
+  - albumin_2S: 2 accessions
+  - storage_globulins: 1 accessions
+
+Cucurbita_pepo (Squash/pumpkin)
+  - cucurbitin: 1 accessions
+  - cucumisin: 1 accessions
+  - albumin_2S: 2 accessions
+  - storage_proteins: 1 accessions
+
+Cucurbita_maxima (Winter squash)
+  - storage_proteins: 1 accessions
+
+Amaranthus_hypochondriacus (Amaranth)
+  - amarantin_11S: 1 accessions
+  - albumins: 2 accessions
+  - globulins: 1 accessions
+
+Zizania_palustris (Wild rice)
+  - glutelins: 1 accessions
+  - storage_proteins: 1 accessions
+
+Juglans_nigra (Black walnut)
+  - albumin_2S: 1 accessions
+  - storage_proteins: 1 accessions
+
+Carya_illinoinensis (Pecan (proxy for hickory))
+  - albumins: 1 accessions
+  - storage_proteins: 1 accessions
+
+Apios_americana (Groundnut)
+
+Helianthus_tuberosus (Jerusalem artichoke)
