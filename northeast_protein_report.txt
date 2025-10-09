@@ -1,0 +1,29 @@
+NORTHEAST ARCHAEOLOGICAL PROTEIN DATABASE
+================================================================================
+
+Total sequences fetched: 90
+Total UniProt queries: 62
+Failed queries: 0
+
+Sequences by Category:
+----------------------------------------
+Faunal              :   36
+Fish                :   30
+Floral              :    8
+Reptile             :   16
+
+Sequences by Protein Type:
+----------------------------------------
+actin                    :   12
+albumin                  :    8
+allergen                 :    1
+collagen                 :   10
+globulin                 :    2
+hemoglobin               :   12
+hydrophobin              :    1
+laccase                  :    1
+myoglobin                :   10
+myosin                   :   11
+parvalbumin              :   10
+tropomyosin              :   10
+zein                     :    2

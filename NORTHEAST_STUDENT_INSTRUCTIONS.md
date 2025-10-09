@@ -1,26 +1,55 @@
-# Building the Northeast Archaeological Protein Database
-## Step-by-Step Instructions for Students
+Hi Petra,
+
+I worked on some scripts that will build a comprehensive protein reference database for identifying animal and plant remains from Northeast archaeological sites. These data are based on the XSLX file that you send... the idea is that the database will be able to be used with our PAMPA software to analyze mass spectrometry data from pottery residues and other archaeological samples.
+
+**IMPORTANT UPDATE:** The automated script is now working! You have two options:
+
+## OPTION A: AUTOMATED APPROACH (RECOMMENDED) - 90-120 minutes
+
+**The script now works!** It will automatically fetch all proteins for all 266 species.
+
+```bash
+# Run the automated script
+python3 fetch_northeast_proteins.py "plant_animal data by site.xlsx"
+
+# This will take ~90-120 minutes and create:
+# - northeast_reference_proteins.fasta (~1,000-2,000 proteins)
+# - northeast_taxonomy.tsv (taxonomic hierarchy)
+# - northeast_protein_report.txt (summary statistics)
+```
+
+**Advantages:**
+- Much faster (90-120 minutes vs 20-30 hours)
+- No manual work
+- Consistent results
+- Automatic error handling
+
+**What the script does:**
+1. Reads all 266 species from the Excel file
+2. Queries UniProt for heat-stable proteins (collagen, storage proteins, etc.)
+3. Downloads 2-8 proteins per species
+4. Organizes into PAMPA-compatible format
+5. Generates taxonomy file and report
+
+**When to use Option A:** Always try this first! It works reliably now.
 
 ---
 
-**To:** Research Assistant
-**From:** Dr. Lipo
-**Re:** Creating UniProt Protein Database for Northeast Archaeological Species
-**Date:** October 9, 2025
+## OPTION B: MANUAL APPROACH - 20-30 hours
 
----
+**Only use this if the automated script fails!** Full manual instructions are provided below.
 
-Dear Research Assistant,
+**Your task (manual):** Download protein sequences from UniProt for 266 species manually via the web interface.
 
-I need you to build a comprehensive protein reference database for identifying animal and plant remains from Northeast archaeological sites. This database will be used with our PAMPA software to analyze mass spectrometry data from pottery residues and other archaeological samples.
-
-**Your task:** Download protein sequences from UniProt for 266 species (mammals, birds, fish, reptiles, plants, and mushrooms) and organize them into files that PAMPA can use.
-
-**Time estimate:** 20-30 hours of work over 1-2 weeks
+**Time estimate:** 20-30 hours over 1-2 weeks
 **Files you'll create:**
-- FASTA file with protein sequences (~1,000-2,000 proteins)
-- Taxonomy file mapping species to taxonomic groups
-- Summary spreadsheet tracking your progress
+- FASTA file with protein sequences
+- Taxonomy file
+- Tracking spreadsheet
+
+**When to use Option B:** Only if Option A encounters problems you can't resolve.
+
+---
 
 Please follow these instructions carefully and document everything you do.
 

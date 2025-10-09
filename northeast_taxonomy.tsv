@@ -1,46 +1,13 @@
-Species	Genus	Category	Common_Name
-Odocoileus_virginianus	Odocoileus	Mammal - Ungulate	White-tailed deer
-Ursus_americanus	Ursus	Mammal - Carnivore	Black bear
-Alces_alces	Alces	Mammal - Ungulate	Moose
-Cervus_elaphus	Cervus	Mammal - Ungulate	Elk/Red deer (proxy for wapiti)
-Canis_lupus	Canis	Mammal - Carnivore	Wolf/Dog
-Felis_catus	Felis	Mammal - Carnivore	Cat (proxy for lynx)
-Oryctolagus_cuniculus	Oryctolagus	Mammal - Small game	Rabbit (proxy for hare/cottontail)
-Rattus_norvegicus	Rattus	Mammal - Rodent	Rat (proxy for rodents: beaver, muskrat, squirrel, etc.)
-Bos_taurus	Bos	Mammal - Ungulate proxy	Cattle (general ungulate proxy)
-Sus_scrofa	Sus	Mammal - Omnivore proxy	Pig (general omnivore proxy)
-Phoca_vitulina	Phoca	Mammal - Marine	Harbor seal
-Meleagris_gallopavo	Meleagris	Bird - Galliforme	Wild turkey
-Gallus_gallus	Gallus	Bird - Galliforme proxy	Chicken (general bird proxy)
-Anas_platyrhynchos	Anas	Bird - Waterfowl	Mallard (waterfowl proxy)
-Branta_canadensis	Branta	Bird - Waterfowl	Canada goose
-Cygnus_columbianus	Cygnus	Bird - Waterfowl	Tundra swan
-Salmo_salar	Salmo	Fish - Anadromous	Atlantic salmon
-Clupea_harengus	Clupea	Fish - Anadromous	Atlantic herring (proxy for shad/alewife)
-Acipenser_ruthenus	Acipenser	Fish - Anadromous	Sterlet (proxy for Atlantic sturgeon)
-Acipenser_transmontanus	Acipenser	Fish - Anadromous	White sturgeon (sturgeon roe proxy)
-Esox_lucius	Esox	Fish - Freshwater	Northern pike
-Perca_fluviatilis	Perca	Fish - Freshwater	European perch (proxy for yellow perch/walleye)
-Lepomis_macrochirus	Lepomis	Fish - Freshwater	Bluegill (proxy for sunfish/crappie)
-Gadus_morhua	Gadus	Fish - Marine	Atlantic cod
-Platichthys_flesus	Platichthys	Fish - Marine	European flounder (proxy for winter flounder)
-Labrus_bergylta	Labrus	Fish - Marine	Ballan wrasse (proxy for cunner)
-Trachemys_scripta	Trachemys	Reptile	Red-eared slider (proxy for turtles)
-Python_bivittatus	Python	Reptile	Burmese python (proxy for water snake)
-Xenopus_laevis	Xenopus	Amphibian	African clawed frog (proxy for bullfrog)
-Homarus_americanus	Homarus	Shellfish - Crustacean	American lobster
-Crassostrea_virginica	Crassostrea	Shellfish - Bivalve	Eastern oyster
-Mercenaria_mercenaria	Mercenaria	Shellfish - Bivalve	Hard clam/Quahog
-Mytilus_edulis	Mytilus	Shellfish - Bivalve	Blue mussel
-Homo_sapiens	Homo	Contamination	Human (contamination control)
-Phaseolus_vulgaris	Phaseolus	Plant - Domesticated	Common bean
-Zea_mays	Zea	Plant - Domesticated	Maize
-Helianthus_annuus	Helianthus	Plant - Domesticated	Sunflower
-Chenopodium_quinoa	Chenopodium	Plant - Domesticated	Quinoa (proxy for C. berlandieri)
-Cucurbita_pepo	Cucurbita	Plant - Domesticated	Squash/pumpkin
-Cucurbita_maxima	Cucurbita	Plant - Domesticated	Winter squash
-Amaranthus_hypochondriacus	Amaranthus	Plant - Domesticated	Amaranth
-Zizania_palustris	Zizania	Plant - Wild	Wild rice
-Juglans_nigra	Juglans	Plant - Wild	Black walnut
-Carya_illinoinensis	Carya	Plant - Wild	Pecan (proxy for hickory)
-Helianthus_tuberosus	Helianthus	Plant - Wild	Jerusalem artichoke
+species	superfamily	family	genus	species_name
+Chelydra serpentina	Reptilia	Chelydra	Chelydra	serpentina
+Didelphis virginiana	Mammalia/Aves	Didelphis	Didelphis	virginiana
+Juglans nigra	Plantae	Juglans	Juglans	nigra
+Juglans regia	Plantae	Juglans	Juglans	regia
+Meleagris gallopavo	Mammalia/Aves	Meleagris	Meleagris	gallopavo
+Morchella conica CCBAS932	Plantae	Morchella	Morchella	conica CCBAS932
+Morchella spongiola	Plantae	Morchella	Morchella	spongiola
+Odocoileus virginianus texanus	Mammalia/Aves	Odocoileus	Odocoileus	virginianus texanus
+Odocoileus virginianus virginianus	Mammalia/Aves	Odocoileus	Odocoileus	virginianus virginianus
+Perca flavescens	Actinopterygii	Perca	Perca	flavescens
+Salmo trutta	Actinopterygii	Salmo	Salmo	trutta
+Zea mays	Plantae	Zea	Zea	mays
