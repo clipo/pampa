@@ -8,6 +8,7 @@ __PAMPA (Protein Analysis by Mass Spectrometry for Ancient Species)__ is a softw
 - [Quick Start for Archaeologists](#quick-start-for-archaeologists)
 - [Archaeological Analysis Guide](#archaeological-analysis-guide-poverty-point-example)
 - [Plant Protein Detection (NEW!)](#plant-protein-detection-for-eastern-north-american-archaeology)
+- [Northeast Regional Protein Database (NEW!)](#northeast-regional-protein-database-new)
 - [Mass Spectrometry File Formats](#mass-spectrometry-file-formats)
   - [Q Exactive HF](#using-q-exactive™-hf-hybrid-quadrupole-orbitrap™-data)
   - [Bruker timsTOF](#using-bruker-timstof-pro-2-data)
@@ -1032,6 +1033,353 @@ If using the plant protein detection feature, please cite:
 ✓ **Validated and tested** - ready for archaeological analysis
 
 **Database ready to use** - just point PAMPA at your pottery residue spectra!
+
+## Northeast Regional Protein Database (NEW!)
+
+PAMPA now includes a comprehensive framework for building custom regional protein databases. The **Northeast Regional Database** covers 266 species of fauna and flora from Northeast North American archaeological sites, enabling identification of animals, fish, and plants processed in prehistoric contexts.
+
+### Overview: Northeast Species Coverage
+
+**Complete species lists from regional archaeological assemblages:**
+- **64 Faunal species**: Mammals (deer, elk, bear, beaver, raccoon, etc.), Birds (turkey, waterfowl, raptors), Freshwater mussels
+- **41 Fish species**: Bass, trout, perch, pike, catfish, minnows, suckers, darters
+- **6 Reptile species**: Snapping, wood, box, painted, and musk turtles, snakes
+- **155 Plant species**: Cultivated crops (corn, beans, squash), Tree nuts (walnut, hickory, chestnut, acorns), Wild berries, Edible mushrooms
+
+**Data source:** Species lists compiled from published Northeast archaeological faunal and floral assemblages across New York, Pennsylvania, and New England sites spanning Archaic through Late Woodland periods.
+
+### Quick Start: Build Your Northeast Database
+
+The framework provides **step-by-step instructions** for creating the database:
+
+```bash
+# 1. Student follows detailed instructions in NORTHEAST_STUDENT_INSTRUCTIONS.md
+#    - Downloads protein sequences from UniProt for all 266 species
+#    - Targets heat-stable proteins (collagen, storage proteins, inhibitors)
+#    - Creates tracking spreadsheet for progress
+
+# 2. Automated header cleaning
+python clean_fasta_headers.py \
+    northeast_all_proteins_raw.fasta \
+    northeast_reference_proteins.fasta
+
+# 3. Generate peptide markers
+python pampa_craft.py --allpeptides \
+    -f northeast_reference_proteins.fasta \
+    -o northeast_markers.tsv
+
+python pampa_craft.py --deamidation \
+    -p northeast_markers.tsv \
+    -o northeast_markers_deam.tsv
+
+python pampa_craft.py --fillin \
+    -p northeast_markers_deam.tsv \
+    -f northeast_reference_proteins.fasta \
+    -t northeast_taxonomy.tsv \
+    -o northeast_markers_complete.tsv
+
+# 4. Analyze archaeological samples
+python pampa_classify.py \
+    -s northeast_pottery_spectra/ \
+    -e 0.1 \
+    -p northeast_markers_complete.tsv \
+    -t northeast_taxonomy.tsv \
+    --deamidation \
+    -o northeast_results.tsv
+```
+
+### Target Proteins: Archaeological Survival
+
+The database focuses on **proteins that survive cooking and burial**:
+
+**Animal Proteins (ZooMS-style identification):**
+- **Collagen Type I (COL1A1, COL1A2)** - PRIMARY TARGET
+  - Best species discrimination
+  - Survives cooking → gelatin (peptides remain)
+  - Thousands of years preservation
+- **Collagen Type II, III** - Cartilage, organs
+- **Muscle proteins** - Myosin, actin, tropomyosin (partially stable)
+- **Blood proteins** - Albumin, hemoglobin, myoglobin
+- **Fish-specific** - Parvalbumin (very heat-stable allergen)
+- **Keratin** - Feathers, hair, scales
+
+**Plant Proteins (cooking-resistant):**
+- **Storage globulins** (11S, 7S types) - Seeds, nuts, grains
+- **Storage albumins** (2S) - Very stable, disulfide-bonded
+- **Grain-specific**: Zeins (corn), gliadins/glutenins, oryzins (wild rice)
+- **Enzyme inhibitors** - Trypsin, protease, amylase inhibitors (extremely stable)
+- **RuBisCO** - Abundant in leafy vegetables
+- **Heat shock proteins (HSP70)** - Stress response proteins
+
+**Mushroom/Fungal Proteins:**
+- Hydrophobins, laccases, chitin synthases
+
+### Why These Proteins?
+
+**Heat Stability = Archaeological Preservation**
+
+Proteins that survive cooking also survive archaeological burial:
+1. **Collagen → Gelatin**: Structure changes but peptides remain intact
+2. **Storage proteins**: Evolved to survive desiccation and temperature extremes
+3. **Enzyme inhibitors**: Chemically stable, compact structure, resist degradation
+4. **Zeins (corn)**: Hydrophobic proteins readily bind ceramic surfaces
+5. **Albumins**: Coagulate during cooking but fragments persist
+
+### Documentation Suite
+
+**Three comprehensive guides included:**
+
+1. **NORTHEAST_STUDENT_INSTRUCTIONS.md** (20 pages)
+   - Complete step-by-step workflow for research assistants
+   - Formatted as instructional email
+   - Every step detailed with no assumed knowledge
+   - Includes UniProt search syntax, troubleshooting, time estimates
+   - Python script for automated FASTA header cleaning
+   - Quality control procedures
+   - Expected completion time: 25-35 hours
+
+2. **NORTHEAST_PROTEIN_GUIDE.md** (20 pages)
+   - Scientific rationale for protein selection
+   - Heat stability and preservation mechanisms
+   - Taxonomic resolution by protein type
+   - Archaeological interpretation frameworks
+   - Integration with PAMPA workflow
+   - Validation approaches
+   - Literature references
+
+3. **NORTHEAST_QUICKSTART.md**
+   - Practical quick-reference guide
+   - UniProt web interface instructions
+   - Alternative manual curation approach
+   - Taxonomy file creation
+   - Command-line workflows
+   - Common problems and solutions
+
+### Archaeological Applications
+
+**Regional Subsistence Analysis:**
+- Track adoption of Three Sisters agriculture (corn + beans + squash)
+- Document Eastern Agricultural Complex usage (sunflower, chenopodium, squash)
+- Identify persistent wild resource processing (nuts, berries, wild rice)
+- Distinguish aquatic vs terrestrial resource focus
+
+**Temporal Patterns:**
+- Archaic: Wild game + nut processing
+- Early-Middle Woodland: EAC + wild foods
+- Late Woodland: Maize introduction, EAC continuation
+- Mississippian: Three Sisters intensification
+
+**Vessel Function:**
+- Cooking pots: Mixed animal + plant proteins
+- Storage vessels: Single-species signatures
+- Processing tools: Specific plant protein patterns
+
+**Seasonal Indicators:**
+- Fish proteins → warm season fishing camps
+- Waterfowl → spring/fall migrations
+- Nut proteins → fall harvest activities
+- Fresh vs dried plant processing
+
+### Database Coverage Expectations
+
+**Excellent UniProt coverage:**
+- Domestic mammals (deer, dog, cattle relatives as proxies)
+- Common fish (trout, bass, salmon family)
+- Major crops (corn, beans, squash)
+- Tree nuts (walnut, hickory relatives, beech, chestnut)
+
+**Limited or proxy-based coverage:**
+- Many wild berries (use genus or family level)
+- Mushroom species (fungi underrepresented in UniProt)
+- Some regional fish species (use related species)
+- Freshwater mussels (limited proteomic data)
+
+**Solutions for gaps:**
+- Use genus-level UniProt searches: `taxonomy:Genus`
+- Include related species as proxies
+- Manual literature curation for important species
+- Homology-based marker design from related proteins
+
+### Building Your Regional Database
+
+**The framework is adaptable to any region:**
+
+1. **Create species list** from published assemblages
+   - Consult zooarchaeological reports
+   - Review archaeobotanical studies
+   - Include all documented taxa
+
+2. **Follow student instructions** to download sequences
+   - Systematic UniProt queries by species
+   - Track progress in provided spreadsheet template
+   - Handle problem cases with documented solutions
+
+3. **Process and validate**
+   - Clean headers with provided Python script
+   - Create taxonomy file with regional classification
+   - Quality control checks included
+
+4. **Generate PAMPA markers**
+   - Standard pampa_craft workflow
+   - Deamidation variants for ancient proteins
+   - Taxonomy integration
+
+### Integration with Existing PAMPA Features
+
+**Combine with other databases:**
+```bash
+# Use pre-built mammal database + regional fish/plants
+python pampa_classify.py --mammals \
+    -s pottery_spectra/ -e 0.1 -o mammals_results.tsv
+
+python pampa_classify.py \
+    -s pottery_spectra/ -e 0.1 \
+    -p northeast_fish_markers.tsv \
+    -o fish_results.tsv
+
+python pampa_classify.py \
+    -s pottery_spectra/ -e 0.1 \
+    -p plant_markers_deamidation.tsv \
+    -t plant_taxonomy.tsv \
+    --deamidation \
+    -o plant_results.tsv
+```
+
+**Combine results to understand vessel contents:**
+- Deer + maize + beans = Three Sisters diet with hunting
+- Fish + wild rice = aquatic resource processing
+- Multiple nut proteins = fall harvest activities
+- Turkey + no plants = specialized meat processing
+
+### Technical Details
+
+**Protein targets per organism type:**
+- Mammals/Birds: 10 proteins (collagen, muscle, blood, keratin)
+- Fish: 10 proteins (collagen, parvalbumin, tropomyosin, muscle)
+- Reptiles: 8 proteins (collagen-focused)
+- Plants (cultivated): 11-12 proteins (storage, grain-specific, inhibitors)
+- Plants (wild): 6-8 proteins (storage proteins, RuBisCO)
+- Fungi: 3-4 proteins (structural, enzymatic)
+
+**Expected database size:**
+- Animal proteins: 1,000-2,000 sequences
+- Plant proteins: 500-1,000 sequences
+- Total peptide markers (with deamidation): 10,000-50,000
+
+**Quality assurance:**
+- Multiple peptides required for confident identification
+- Cross-validation with known reference samples
+- Integration with traditional archaeozoology/archaeobotany
+
+### Automated Fetching Script (Beta)
+
+An automated script (`fetch_northeast_proteins.py`) is included but **requires UniProt REST API syntax updates** to function properly. The manual workflow via UniProt web interface is currently recommended and is more reliable for student use.
+
+```bash
+# Automated script (needs API fixes):
+python fetch_northeast_proteins.py "plant_animal data by site.xlsx"
+
+# Generates (when working):
+# - northeast_reference_proteins.fasta
+# - northeast_taxonomy.tsv
+# - northeast_protein_report.txt
+```
+
+### Files Included
+
+**Scripts:**
+- `fetch_northeast_proteins.py` - Automated UniProt fetcher (needs API update)
+- `test_northeast_fetch.py` - Test with 9 species subset
+- `clean_fasta_headers.py` - Standardize headers for PAMPA (in documentation)
+
+**Documentation:**
+- `NORTHEAST_STUDENT_INSTRUCTIONS.md` - Complete student workflow
+- `NORTHEAST_PROTEIN_GUIDE.md` - Scientific background
+- `NORTHEAST_QUICKSTART.md` - Quick reference
+- `plant_animal data by site.xlsx` - Species lists by site
+
+**Generated files (after completion):**
+- `northeast_reference_proteins.fasta` - Cleaned sequences
+- `northeast_taxonomy.tsv` - Taxonomic hierarchy
+- `northeast_markers_complete.tsv` - Peptide markers with taxonomy
+- `northeast_database_summary.txt` - Statistics and notes
+
+### Best Practices
+
+**When building your database:**
+1. Start with high-priority species (common animals, major crops)
+2. Use reviewed (Swiss-Prot) UniProt entries when available
+3. Fall back to genus/family level for rare species
+4. Document all decisions in tracking spreadsheet
+5. Test with modern reference samples first
+
+**When analyzing samples:**
+1. Always use `--deamidation` for archaeological proteins
+2. Adjust error tolerance based on instrument (0.01-0.2 Da)
+3. Require multiple peptide matches for confidence
+4. Integrate with macro-remain evidence
+5. Consider taphonomic factors (burning, degradation)
+
+**For publication:**
+- Report database creation methodology
+- Cite UniProt accession numbers used
+- Describe taxonomic proxy species clearly
+- Provide validation with known samples
+- Acknowledge limitations in species resolution
+
+### Research Questions Addressable
+
+With complete Northeast database:
+- **Agricultural transitions**: EAC → Three Sisters timing and pathways
+- **Subsistence diversification**: Wild vs domesticated resource ratios
+- **Seasonal rounds**: Fishing, hunting, gathering patterns
+- **Vessel specialization**: Cooking vs storage vs processing
+- **Regional variation**: Dietary differences across Northeast
+- **Cultural persistence**: Indigenous crops alongside maize
+- **Exchange networks**: Non-local food resources
+- **Climate adaptation**: Resource shifts with environmental change
+
+### Future Enhancements
+
+**Planned additions:**
+- Fixed automated UniProt REST API script
+- Pre-built Northeast reference database (when complete)
+- Temporal benchmarks (expected species by period)
+- Site-specific protein libraries
+- Integration with modern genomic resources
+- Expanded fungal protein coverage
+
+### Support and Contributing
+
+**Questions or issues:**
+- Review comprehensive documentation first
+- Check UniProt for species name variations
+- Try genus/family level searches for rare species
+- Consult PAMPA GitHub issues for technical problems
+
+**Contributing:**
+- Share completed regional databases
+- Report coverage gaps or errors
+- Suggest additional target proteins
+- Provide archaeological validation data
+
+**Citation:**
+If using the Northeast Regional Database framework, please cite:
+- **PAMPA software**: Touzet & Rodrigues Pereira (2024)
+- **Northeast framework**: "Northeast Regional Protein Database for Archaeological Analysis" - https://github.com/clipo/pampa
+- **UniProt**: The UniProt Consortium (2023)
+
+### System Status
+
+✓ **Framework complete** - Documentation and scripts ready
+✓ **266 species** identified from regional assemblages
+✓ **Comprehensive guides** for database construction
+✓ **Student-tested workflow** with time estimates
+✓ **Adaptable to other regions** - use as template
+⚠️ **Manual approach recommended** until API script updated
+⏳ **Database construction** requires 25-35 hours of student time
+
+**Get started:** See `NORTHEAST_STUDENT_INSTRUCTIONS.md` for complete workflow
 
 ## Bug Report
 
